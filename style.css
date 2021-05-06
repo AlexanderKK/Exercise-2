@@ -1,0 +1,48 @@
+#buttons {
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	overflow: auto;
+	width: 50%;
+}
+
+.tabLink {
+	margin: 0.15em 0.15em 0;
+	padding: 1em 1.5em;
+	float: left;
+	outline: none;
+	border: none;
+	border-radius: 4.5px 4.5px 0 0;
+	cursor: pointer;
+	/*transition: background-color 0.5s;*/
+}
+
+.tabLink:hover {
+	background-color: #167BD4;
+}
+
+.active {
+	background-color: #167BD4;
+}
+
+.tabContent {
+	overflow: auto;
+	text-align: justify;
+	width: 48%;
+	height: 250px;
+	display: none;
+    border: 1px solid #ccc;
+  	border-top: none;
+  	padding: 0.5% 1%;
+}
+
+.closeBtn {
+	font-size: 2em;
+	cursor: pointer;
+	float: right;
+	transition: color 0.5s;
+}
+
+.closeBtn:hover {
+	color: red;
+}
